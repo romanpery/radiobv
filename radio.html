@@ -5,85 +5,10 @@
 		<title></title>
 	</head>
 	<body>
-		<script src="http://releases.flowplayer.org/js/flowplayer-3.2.13.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-
-		<video controls id="video"></video>
-		<div style="width-min: 100px; height-min: 35px; width: 99%;" id="dvReproductor" class="col-xs-12 col-sm-6"></div>
-		<div id="botonesRadio" class="col-xs-12 text-center">
-			<button onclick="reproducir()" class="btn btn-primary"><i class="fa fa-play" aria-hidden="true"></i></button>
-			<button onclick="parar()" class="btn btn-primary"><i class="fa fa-stop" aria-hidden="true"></i></button>
-			<script>
-				function reproducir(){
-					document.getElementById('video').play();
-				}
-
-				function parar(){
-					document.getElementById('video').pause();
-				}
-
-				jQuery( document ).ready(function($) {
-					document.getElementById('video').play();
-				});
-			</script>
+		<div style="width-min: 300px; height-min: 300px; width: 200%;" id="dvReproductor" class="col-xs-12 col-sm-6">
+			<video controls autoplay id="videoRadio" height="35px;" poster="wp-content/themes/temana/img/FondoNA.jpg">
+				<source src="http://209.208.97.249/radio/live/index.m3u8"></source>
+			</video>
 		</div>
-
-	  <script>
-	    if (Hls.isSupported()) {
-	      var video = document.getElementById('video');
-	      var hls = new Hls();
-	      // bind them together
-	      hls.attachMedia(video);
-	      hls.on(Hls.Events.MEDIA_ATTACHED, function () {
-	        console.log("video and hls.js are now bound together !");
-	        hls.loadSource("http://209.208.97.249/radio/live/index.m3u8");
-	        hls.on(Hls.Events.MANIFEST_PARSED, function (event, data) {
-	          console.log("manifest loaded, found " + data.levels.length + " quality level");
-	        });
-	      });
-	    } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-		    video.src = "http://209.208.97.249/radio/live/index.m3u8";
-		    video.addEventListener('loadedmetadata',function() {
-		      video.play();
-		    });
-		  } else {
-				jQuery( document ).ready(function($) {
-						$f("dvReproductor", "http://releases.flowplayer.org/swf/flowplayer-3.2.18.swf", {
-							autoPlay: true,
-							fullscreen: true,
-							clip: {
-							provider: 'cloudfront',
-
-							// combined streams are configured in the "streams" node as follows:
-							streams: [
-								{ url: 'live'},
-							]
-						},
-						// our rtmp plugin is configured identically as in the first example
-						plugins: {
-							cloudfront: {
-								url: "flowplayer.rtmp-3.2.13.swf",
-								netConnectionUrl: 'rtmp://209.208.97.249:1936/radio'
-							},
-							controls: {
-								playlist: false,
-								fullscreen: true,
-								stop: false,
-								time: false,
-								play: true,
-								scrubber: true
-							}
-						},
-						onLoad: function() { // called when player has finished loading
-							this.setVolume(1000); // set volume property
-						},
-						onError: function(){
-							alert("Ocurrio un error");
-						}
-					});
-				});
-			}
-	  </script>
-
 	</body>
 </html>

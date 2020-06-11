@@ -1,5 +1,5 @@
 body{
-	background-color: #363636;
+	background-color: #f57328fd;
 }
 
 /*SLIDER*/
@@ -11,14 +11,14 @@ body{
 
 .controls{
 	position: absolute;
-	top: 237px;
+	top: 37px;
 	bottom: 0;
 	width: 8%;
 	color: white;
 	text-align: center;
 	font-size: 32px;
 	text-shadow: 0 1px 2px rgba(0,0,0,.6);
-	background-color: rgba(0,0,0,0);
+	background-color: rgba(223, 20, 20, 0);
 	opacity: 0.5;
 }
 
@@ -274,7 +274,7 @@ body{
 		}
 
 		header{
-			background-color: black;
+			background-color: white;
 		}
 
 		.content-menu{
@@ -290,10 +290,10 @@ body{
 		}
 
 		.content-footer{
-			background-color: #363636;
+			background-color: #ffffff;
 			border-top-width: 2px;
 			border-top-style: solid;
-			border-top-color: #2a4c81;
+			border-top-color: #813b2a;
 		}
 
 		.aligned { 
@@ -331,7 +331,7 @@ body{
 
 		.btn-custom:hover, .btn-custom:active, .btn-custom:focus {
 			cursor: pointer;
-			color:#74c6de;
+			color:#f57328fd;
 		} 
 
 		.btn-custom-play{
@@ -344,7 +344,7 @@ body{
 			width: 160px;
 			font-size: 12px;
 			vertical-align: middle;
-			background: url('http://www.radiounam.unam.mx/wp-content/themes/musicclub/images/list-bg.png');
+			background: url('https://www.neuroticosanonimosbvoax.org.mx/wp-content/themes/temana/img/LogoNA.png');
 			height: 34px;
 			position: relative;
 			float: left;
@@ -383,7 +383,7 @@ body{
 		}
 
 		.player_border{
-			border: 1px solid #535353;
+			border: 1px solid #f33809;
 			border-radius: 4px;
 		}
 

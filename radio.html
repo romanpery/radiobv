@@ -13,6 +13,14 @@
 	<script type="text/javascript">
 		var status = 0;
 
+		var source = "http://109.169.14.34:38305/stream?type=.mp3";
+        var audio = new Audio(); // use the constructor in JavaScript, just easier that way
+        audio.addEventListener("load", function() {
+        audio.play();
+        }, true);
+        audio.src = source;
+        audio.autoplay = true;
+        
 		function Play(music,id) {
 		    var audio = $("#"+id); 
 			if(status == 0 || status == 2)
@@ -80,7 +88,7 @@
 		<div class="row">
 			<div class="col-md-12 text-center" style="padding: 10px 0px">
 				<div class="content-player">
-					<audio id="audio"></audio>
+					<audio  id="audio"></audio>
 					<div class="btn-group player_border">
 						<button onclick="Play('http://109.169.14.34:38305/stream?type=.mp3;','audio');" class="btn btn-custom btn-custom-play">
 							<span title="Play" id="play" class="glyphicon glyphicon-play aligned"></span>

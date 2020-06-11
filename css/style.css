@@ -369,7 +369,7 @@ body{
 		}
 
 		.container-radio{
-			background-image: url('http://www.radiounam.unam.mx/wp-content/uploads/2017/06/BackgroundSalaJulianCarrillo.png');
+			background-image: url('./images/radio.png');
 			background-size:contain;
 			padding-bottom: 15px;
 		}

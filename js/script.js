@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
 
-	Play('http://109.169.14.34:38305/stream?type=.mp3;','audio');
+	Play('http://78.129.193.82:9814:9814/;','audio');
 
 	$("#prev-res").click(function(event){
 		event.preventDefault();

@@ -23,7 +23,8 @@ $(document).ready(function(){
 	/*LISTA DE LOS PROGRAMAS DEL LUNES FM*/
 	var programaLu1 = new Programa("00:00","00:02","Himno Nacional","","http://www.radio.unam.mx/wp-content/uploads/2017/04/SliderHome_HimnoNacional.jpg","http://www.radio.unam.mx/");
 	var programaLu2 = new Programa("00:02","06:00","Programación musical","","http://www.radio.unam.mx/wp-content/uploads/2017/05/programacionMusical_2.jpg","http://www.radio.unam.mx/");
-	var programaLu3 = new Programa("06:00","06:06","Himno Nacional y rúbrica","","http://www.radio.unam.mx/wp-content/uploads/2017/05/HimnoNacional_1.jpg","http://www.radio.unam.mx/");
+	var programaLu3 = new Programa("08:00","9:00","Sintomas de la Enfermedad","Programa de contenido de la Neurosis","https://www.neuroticosanonimosbvoax.org.mx/wp-content/uploads/2020/06/radiosintomas.png","http://www.radio.unam.mx/album/testimoniooidas/");
+	
 	var programaLu4 = new Programa("06:06","06:30","Programación musical","","http://www.radio.unam.mx/wp-content/uploads/2017/05/programacionMusical_3.jpg","http://www.radio.unam.mx/");
 	var programaLu5 = new Programa("06:30","06:40","Entre hombres","¿La perspectiva de género solamente puede existir desde el feminismo?","http://www.radio.unam.mx/wp-content/uploads/2019/02/EntreHombres600px.jpg","http://www.radio.unam.mx/programa_unam/entre-hombres/");
 	
@@ -33,7 +34,7 @@ $(document).ready(function(){
 	/*LISTA DE LOS PROGRAMAS DEL MARTES FM*/
 	var programaMa1 = new Programa("00:00","00:02","Himno Nacional","","http://www.radio.unam.mx/wp-content/uploads/2017/04/SliderHome_HimnoNacional.jpg","http://www.radio.unam.mx/");
 	var programaMa2 = new Programa("00:02","01:00","Programación musical","","http://www.radio.unam.mx/wp-content/uploads/2017/05/programacionMusical_2.jpg","http://www.radio.unam.mx/");
-	var programaMa3 = new Programa("01:00","02:00","Testimonio de oídas","Música nueva en voz de sus creadores","http://www.radio.unam.mx/wp-content/uploads/2017/05/TestimonioOidas-1.jpg","http://www.radio.unam.mx/album/testimoniooidas/");
+	var programaMa3 = new Programa("08:00","9:00","Sintomas de la Enfermedad","Programa de contenido de la Neurosis","https://www.neuroticosanonimosbvoax.org.mx/wp-content/uploads/2020/06/radiosintomas.png","http://www.radio.unam.mx/album/testimoniooidas/");
 	var programaMa4 = new Programa("02:00","06:00","Programación musical","","http://www.radio.unam.mx/wp-content/uploads/2017/05/programacionMusical_3.jpg","http://www.radio.unam.mx/");
 	var programaMa5 = new Programa("06:00","06:06","Himno Nacional y rúbrica","","http://www.radio.unam.mx/wp-content/uploads/2017/05/HimnoNacional_1.jpg","http://www.radio.unam.mx/");
 	
@@ -43,7 +44,7 @@ $(document).ready(function(){
 	/*LISTA DE LOS PROGRAMAS DEL MIERCOLES FM*/
 	var programaMi1 = new Programa("00:00","00:02","Himno Nacional","","http://www.radio.unam.mx/wp-content/uploads/2017/04/SliderHome_HimnoNacional.jpg","http://www.radio.unam.mx/");
 	var programaMi2 = new Programa("00:02","06:00","Programación musical","","http://www.radio.unam.mx/wp-content/uploads/2017/05/programacionMusical_2.jpg","http://www.radio.unam.mx/");
-	var programaMi3 = new Programa("06:00","06:06","Himno Nacional y rúbrica","","http://www.radio.unam.mx/wp-content/uploads/2017/05/HimnoNacional_1.jpg","http://www.radio.unam.mx/");
+	var programaMi3 = new Programa("08:00","9:00","Sintomas de la Enfermedad","Programa de contenido de la Neurosis","https://www.neuroticosanonimosbvoax.org.mx/wp-content/uploads/2020/06/radiosintomas.png","http://www.radio.unam.mx/album/testimoniooidas/");
 	var programaMi4 = new Programa("06:06","06:30","Programación musical","","http://www.radio.unam.mx/wp-content/uploads/2017/05/programacionMusical_3.jpg","http://www.radio.unam.mx/");
 	var programaMi5 = new Programa("06:30","06:40","Entre hombres","¿La perspectiva de género solamente puede existir desde el feminismo?","http://www.radio.unam.mx/wp-content/uploads/2019/02/EntreHombres600px.jpg","http://www.radio.unam.mx/programa_unam/entre-hombres/");
 	
@@ -54,7 +55,7 @@ $(document).ready(function(){
 	/*LISTA DE LOS PROGRAMAS DEL JUEVES FM*/
 	var programaJu1 = new Programa("00:00","00:02","Himno Nacional","","http://www.radio.unam.mx/wp-content/uploads/2017/04/SliderHome_HimnoNacional.jpg","http://www.radio.unam.mx/");
 	var programaJu2 = new Programa("00:02","01:00","Programación musical","","http://www.radio.unam.mx/wp-content/uploads/2017/05/programacionMusical_2.jpg","http://www.radio.unam.mx/");
-	var programaJu3 = new Programa("01:00","02:00","Testimonio de oídas","Música nueva en voz de sus creadores","http://www.radio.unam.mx/wp-content/uploads/2017/05/TestimonioOidas-1.jpg","http://www.radio.unam.mx/album/testimoniooidas/");
+	var programaJu3 = new Programa("08:00","9:00","Sintomas de la Enfermedad","Programa de contenido de la Neurosis","https://www.neuroticosanonimosbvoax.org.mx/wp-content/uploads/2020/06/radiosintomas.png","http://www.radio.unam.mx/album/testimoniooidas/");
 	var programaJu4 = new Programa("02:00","06:00","Programación musical","","http://www.radio.unam.mx/wp-content/uploads/2017/05/programacionMusical_3.jpg","http://www.radio.unam.mx/");
 	var programaJu5 = new Programa("06:00","06:06","Himno Nacional y rúbrica","","http://www.radio.unam.mx/wp-content/uploads/2017/05/HimnoNacional_1.jpg","http://www.radio.unam.mx/");
 	
@@ -65,7 +66,7 @@ $(document).ready(function(){
 	/*LISTA DE LOS PROGRAMAS DEL VIERNES FM*/
 	var programaVi1 = new Programa("00:00","00:02","Himno Nacional","","http://www.radio.unam.mx/wp-content/uploads/2017/04/SliderHome_HimnoNacional.jpg","http://www.radio.unam.mx/");
 	var programaVi2 = new Programa("00:02","01:00","Carpe noctem","","http://www.radio.unam.mx/wp-content/uploads/2017/05/CarpeNoctem.jpg","http://www.radio.unam.mx/");
-	var programaVi3 = new Programa("01:00","06:00","Programación musical","","http://www.radio.unam.mx/wp-content/uploads/2017/05/programacionMusical_2.jpg","http://www.radio.unam.mx/");
+	var programaVi3 = new Programa("08:00","9:00","Sintomas de la Enfermedad","Programa de contenido de la Neurosis","https://www.neuroticosanonimosbvoax.org.mx/wp-content/uploads/2020/06/radiosintomas.png","http://www.radio.unam.mx/album/testimoniooidas/");
 	var programaVi4 = new Programa("06:00","06:06","Himno Nacional y rúbrica","","http://www.radio.unam.mx/wp-content/uploads/2017/05/HimnoNacional_1.jpg","http://www.radio.unam.mx/");
 	var programaVi5 = new Programa("06:06","06:30","Programación musical","","http://www.radio.unam.mx/wp-content/uploads/2017/05/programacionMusical_3.jpg","http://www.radio.unam.mx/");
 	
@@ -77,7 +78,7 @@ $(document).ready(function(){
 	var programaSa1 = new Programa("00:00","00:02","Himno Nacional","","http://www.radio.unam.mx/wp-content/uploads/2017/04/SliderHome_HimnoNacional.jpg","http://www.radio.unam.mx/");
 	var programaSa2 = new Programa("06:02","21:00","Programación musical","","http://www.radio.unam.mx/wp-content/uploads/2017/05/programacionMusical_2.jpg","http://www.radio.unam.mx/");
 	var programaSa3 = new Programa("08:00","9:00","Sintomas de la Enfermedad","Programa de contenido de la Neurosis","https://www.neuroticosanonimosbvoax.org.mx/wp-content/uploads/2020/06/radiosintomas.png","http://www.radio.unam.mx/album/testimoniooidas/");
-	var programaSa4 = new Programa("02:00","06:00","Programación musical","","http://www.radio.unam.mx/wp-content/uploads/2017/05/programacionMusical_3.jpg","http://www.radio.unam.mx/");
+	var programaSa4 = new Programa("06:00","21:00","Programación musical","","http://www.radio.unam.mx/wp-content/uploads/2017/05/programacionMusical_3.jpg","http://www.radio.unam.mx/");
 	var programaSa5 = new Programa("20:00","06:06","Himno Nacional y rúbrica","","http://www.radio.unam.mx/wp-content/uploads/2017/05/HimnoNacional_1.jpg","http://www.radio.unam.mx/");
 	
 
@@ -87,7 +88,7 @@ $(document).ready(function(){
 	/*LISTA DE LOS PROGRAMAS DEL DOMINGO FM*/
 	var programaDo1 = new Programa("00:00","00:02","Himno Nacional","","http://www.radio.unam.mx/wp-content/uploads/2017/04/SliderHome_HimnoNacional.jpg","http://www.radio.unam.mx/");
 	var programaDo2 = new Programa("00:02","01:00","Programación musical","","http://www.radio.unam.mx/wp-content/uploads/2017/05/programacionMusical_2.jpg","http://www.radio.unam.mx/");
-	var programaDo3 = new Programa("01:00","02:00","Testimonio de oídas","Música nueva en voz de sus creadores","http://www.radio.unam.mx/wp-content/uploads/2017/05/TestimonioOidas-1.jpg","http://www.radio.unam.mx/album/testimoniooidas/");
+	var programaDo3 = new Programa("08:00","9:00","Sintomas de la Enfermedad","Programa de contenido de la Neurosis","https://www.neuroticosanonimosbvoax.org.mx/wp-content/uploads/2020/06/radiosintomas.png","http://www.radio.unam.mx/album/testimoniooidas/");
 	var programaDo4 = new Programa("02:00","06:00","Programación musical","","http://www.radio.unam.mx/wp-content/uploads/2017/05/programacionMusical_3.jpg","http://www.radio.unam.mx/");
 	var programaDo5 = new Programa("06:00","06:06","Himno Nacional y rúbrica","","http://www.radio.unam.mx/wp-content/uploads/2017/05/HimnoNacional_1.jpg","http://www.radio.unam.mx/");
 	
@@ -187,7 +188,7 @@ function crearHTML(listaProgramas){
 		if(i != (listaProgramas.length - 1)){
 			if(horaActual == listaProgramas[i].horaInicio || (horaActual > listaProgramas[i].horaInicio && horaActual < listaProgramas[i+1].horaInicio)){
 				var programA = listaProgramas[i];
-				var contentPA = "<div class='program-content'><div class='row'><div class='col-xs-6'><h3><span class='label label-custom'><span style='" + programLive.urlImage + "'>EN VIVO</span></span></h3><h4><span class='label label-custom'><span style='" + programLive.urlImage + "'>96.1 FM</span></span></h4></div><div class='col-xs-6 text-right horario'>" + programA.horaInicio + " - " + programA.horaFin + "</div></div><div class='row'><a target='_parent' href='" + programA.urlPrograma + "'><div class='col-xs-12 titulo'>" + programA.nombre + "</div></a></div><div class='row'><div class='col-xs-12 descripcion'>" + programA.descripcionPrograma + "</div></div></div>";
+				var contentPA = "<div class='program-content'><div class='row'><div class='col-xs-6'><h3><span class='label label-custom'><span style='" + programLive.urlImage + "'>EN VIVO</span></span></h3><h4><span class='label label-custom'><span style='" + programLive.urlImage + "'>ONLINE</span></span></h4></div><div class='col-xs-6 text-right horario'>" + programA.horaInicio + " - " + programA.horaFin + "</div></div><div class='row'><a target='_parent' href='" + programA.urlPrograma + "'><div class='col-xs-12 titulo'>" + programA.nombre + "</div></a></div><div class='row'><div class='col-xs-12 descripcion'>" + programA.descripcionPrograma + "</div></div></div>";
 				htmlResponsive = htmlResponsive + "<li class='active-res live' style='" + programA.urlImage + "'>" + contentPA + "</li>";
 			}else{
 				var programA = listaProgramas[i];

@@ -75,7 +75,7 @@ $(document).ready(function(){
 
 	/*LISTA DE LOS PROGRAMAS DEL SABADO FM*/
 	var programaSa1 = new Programa("00:00","00:02","Himno Nacional","","http://www.radio.unam.mx/wp-content/uploads/2017/04/SliderHome_HimnoNacional.jpg","http://www.radio.unam.mx/");
-	var programaSa2 = new Programa("00:02","21:00","Programación musical","","http://www.radio.unam.mx/wp-content/uploads/2017/05/programacionMusical_2.jpg","http://www.radio.unam.mx/");
+	var programaSa2 = new Programa("06:02","21:00","Programación musical","","http://www.radio.unam.mx/wp-content/uploads/2017/05/programacionMusical_2.jpg","http://www.radio.unam.mx/");
 	var programaSa3 = new Programa("08:00","9:00","Sintomas de la Enfermedad","Programa de contenido de la Neurosis","https://www.neuroticosanonimosbvoax.org.mx/wp-content/uploads/2020/06/radiosintomas.png","http://www.radio.unam.mx/album/testimoniooidas/");
 	var programaSa4 = new Programa("02:00","06:00","Programación musical","","http://www.radio.unam.mx/wp-content/uploads/2017/05/programacionMusical_3.jpg","http://www.radio.unam.mx/");
 	var programaSa5 = new Programa("20:00","06:06","Himno Nacional y rúbrica","","http://www.radio.unam.mx/wp-content/uploads/2017/05/HimnoNacional_1.jpg","http://www.radio.unam.mx/");

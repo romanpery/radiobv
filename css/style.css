@@ -3,7 +3,6 @@ body{
 }
 
 /*SLIDER*/
-
 .slider-main{
 	position: relative;
 	background-color: transparent!important;
@@ -66,7 +65,6 @@ body{
 	width: 100%;
 	height: 534px;
 }
-
 
 /*SLIDER RESPONSIVE*/
 
@@ -344,7 +342,7 @@ body{
 			width: 160px;
 			font-size: 12px;
 			vertical-align: middle;
-			background: url('https://www.neuroticosanonimosbvoax.org.mx/wp-content/themes/temana/img/LogoNA.png');
+			background: url('../images/LogoNA.png');
 			height: 34px;
 			position: relative;
 			float: left;
@@ -357,7 +355,6 @@ body{
 			position: relative;
 		}
 
-
 		.title-radio{
 			font-size: 22px;
 			font-weight: bold;
@@ -369,7 +366,7 @@ body{
 		}
 
 		.container-radio{
-			background-image: url('https://www.neuroticosanonimosbvoax.org.mx/wp-content/uploads/2020/06/radio.png');
+			background-image: url('../images/radio.png');
 			background-size:contain;
 			padding-bottom: 15px;
 		}

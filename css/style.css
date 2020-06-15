@@ -264,6 +264,8 @@ body{
     background-color: rgba(48, 79, 120, 0.6);
 }
 
+
+
 .mensaje{
 			/* Fallback for web browsers that don't support RGBa */
 		    background-color: rgb(48, 79, 120);
@@ -385,20 +387,13 @@ body{
 		}
 
 		a.btn-radio{
-			color: white;
-			font-size: 90%;
-			padding: 10px 5px;
-			border-style: solid;
+			padding: 10px 10px;
 			border-width: 1px;
-			border-color: white;
 			border-radius: 4px;
-			text-decoration: none;
-			opacity: 0.6;
-			filter: alpha(opacity=60);
 			float: right;
-			margin-right: 10px;
-			margin-top: 20px;
-			background-image: url('http://www.radiounam.unam.mx/wp-content/themes/musicclub/images/player-bg.png');
+			margin-right: 5px;
+			margin-top: 1px;
+			margin-bottom: 3px;	
 		}
 
 		a.btn-radio:hover{
@@ -407,3 +402,11 @@ body{
 			opacity: 1;
 			filter: alpha(opacity=100);
 		}
+
+		.iconos-redes{
+			margin: 8px solid white;
+			padding-left: 110px;
+		}
+
+
+		

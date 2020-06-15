@@ -88,7 +88,7 @@ $(document).ready(function(){
 	var programaDo1 = new Programa("06:00","06:02","Himno Nacional","","http://www.radio.unam.mx/wp-content/uploads/2017/04/SliderHome_HimnoNacional.jpg","http://www.radio.unam.mx/");
 	var programaDo2 = new Programa("06:02","21:00","Programación musical","","http://www.radio.unam.mx/wp-content/uploads/2017/05/programacionMusical_2.jpg","http://www.radio.unam.mx/");
 	var programaDo3 = new Programa("08:00","9:00","Sintomas de la Enfermedad","Programa de contenido de la Neurosis","https://www.neuroticosanonimosbvoax.org.mx/wp-content/uploads/2020/06/radiosintomas.png","http://www.radio.unam.mx/album/testimoniooidas/");
-	var programaDo4 = new Programa("06:00","21:00","Programación musical","","http://www.radio.unam.mx/wp-content/uploads/2017/05/programacionMusical_3.jpg","http://www.radio.unam.mx/");
+	var programaDo4 = new Programa("06:00","21:00","Programación musical actual","","http://www.radio.unam.mx/wp-content/uploads/2017/05/programacionMusical_3.jpg","http://www.radio.unam.mx/");
 	var programaDo5 = new Programa("21:00","21:04","Himno Nacional y rúbrica","","http://www.radio.unam.mx/wp-content/uploads/2017/05/HimnoNacional_1.jpg","http://www.radio.unam.mx/");
 	
 	var listaProgramasDo = [programaDo1,programaDo2,programaDo3,programaDo4,programaDo5];

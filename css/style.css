@@ -387,13 +387,13 @@ body{
 		}
 
 		a.btn-radio{
-			padding: 10px 10px;
-			border-width: 1px;
+			padding: 2px;
+			border-width: 2px;
 			border-radius: 4px;
 			float: right;
-			margin-right: 5px;
-			margin-top: 1px;
-			margin-bottom: 20px;	
+			margin-right: 2px;
+			margin-top: 2px;
+			margin-bottom: 2px;	
 		}
 
 

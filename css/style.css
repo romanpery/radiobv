@@ -386,15 +386,28 @@ body{
 			border-radius: 4px;
 		}
 
-		.redes-radio{
-			margin-top: 1px;
-			margin-right: 2px;
-			margin-bottom: 4px;	
-			padding: 8px 8px;
+		a.btn-radio{
+			color: white;
+			font-size: 90%;
+			padding: 10px 5px;
+			border-style: solid;
 			border-width: 1px;
+			border-color: white;
 			border-radius: 4px;
+			text-decoration: none;
+			opacity: 0.9;
+			filter: alpha(opacity=60);
 			float: right;
-			height: 70px;
+			margin-right: 10px;
+			margin-top: 20px;
+			background-image: url('../images/buttonorange.png');
+		}
+
+		a.btn-radio:hover{
+			color: white;
+			text-decoration: none;
+			opacity: .8;
+			filter: alpha(opacity=100);
 		}
 
 

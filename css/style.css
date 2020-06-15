@@ -386,16 +386,15 @@ body{
 			border-radius: 4px;
 		}
 
-		a.btn-radio{
+		.redes-radio{
 			margin-top: 1px;
 			margin-right: 2px;
 			margin-bottom: 4px;	
-			padding: 0px;
+			padding: 8px 8px;
 			border-width: 1px;
 			border-radius: 4px;
 			float: right;
-			width: 20;
-
+			height: 70px;
 		}
 
 

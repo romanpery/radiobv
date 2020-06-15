@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
 
-	Play('http://78.129.193.82:9814/;','audio');
+	Play('http://78.129.185.81:5336/;','audio');
 
 	$("#prev-res").click(function(event){
 		event.preventDefault();

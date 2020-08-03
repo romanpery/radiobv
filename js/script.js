@@ -209,5 +209,5 @@ function crearHTML(listaProgramas){
 	var htmlA = '<li class="hide mensaje"><div class="row" style="position: relative;top: 50%;"><div class="col-md-12 titulo text-center">Inicio de la programación</div></div></li>';
 	var htmlD = '<li class="hide mensaje"><div class="row" style="position: relative;top: 50%;"><div class="col-md-12 titulo text-center">Fin de la programación</div></div></li>';
 	return htmlA + htmlResponsive + htmlD;
-	Play('http://78.129.185.81:5336/;','audio');
+	
 }
